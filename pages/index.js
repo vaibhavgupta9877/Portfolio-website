@@ -10,34 +10,11 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
-import { initializeApp } from "firebase/app";
-
-import { getAnalytics } from "firebase/analytics";
 
 // Local Data
 import data from "../data/portfolio.json";
 
 export default function Home() {
-  // FireBase Config
-  const firebaseConfig = {
-    apiKey: "AIzaSyBA75t7-kP4Lx07hy_XRQ_VkopXGUv0I1s",
-
-    authDomain: "my-portfolio-60d44.firebaseapp.com",
-
-    projectId: "my-portfolio-60d44",
-
-    storageBucket: "my-portfolio-60d44.appspot.com",
-
-    messagingSenderId: "166421420509",
-
-    appId: "1:166421420509:web:ac0afea81cbe3675e6fe34",
-
-    measurementId: "G-F261Q277TC",
-  };
-
-  const app = initializeApp(firebaseConfig);
-
-  // const analytics = getAnalytics(app);
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
@@ -133,7 +110,7 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
+          <h1 className="tablet:m-10 text-2xl text-bold">Services</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
               <ServiceCard
@@ -153,7 +130,7 @@ export default function Home() {
           </div>
         )}
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
-          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
+          <h1 className="tablet:m-10 text-2xl text-bold">About</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
             {data.aboutpara}
           </p>

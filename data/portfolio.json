@@ -37,34 +37,34 @@
       "url": "http://chetanverma.com/"
     },
     {
-        "id": "3",
-        "title": "Project Three",
-        "description": "Design",
-        "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
-      },
-      {
-        "id": "4",
-        "title": "Project Four",
-        "description": "Marketing",
-        "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
-      },
-      {
-        "id": "5",
-        "title": "Project Five",
-        "description": "Development",
-        "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
-      },
-      {
-        "id": "6",
-        "title": "Project Six",
-        "description": "Design & Development",
-        "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-        "url": "http://chetanverma.com/"
-      }
-    ],
+      "id": "3",
+      "title": "Project Three",
+      "description": "Design",
+      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "4",
+      "title": "Project Four",
+      "description": "Marketing",
+      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "5",
+      "title": "Project Five",
+      "description": "Development",
+      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "6",
+      "title": "Project Six",
+      "description": "Design & Development",
+      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "http://chetanverma.com/"
+    }
+  ],
   "services": [
     {
       "id": "1",
@@ -87,9 +87,9 @@
       "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "Junior Data Analyst Professional, I have recently completed Google Data Analytics Professional Certificate. I am excellent understanding and proficiency of platforms for affective data analysis, including Python, SQL, Google Sheets, Excel, Tableau. Good Communication, organizational and analytical skills.",
   "resume": {
-    "tagline": "I'm a Data Engineer and Data Analyst.",
+    "tagline": "Data Engineer | Data Analyst",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
     "experiences": [
       {
@@ -107,11 +107,21 @@
         "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
       }
     ],
-    "education": {
-      "universityName": "Chitkara University",
-      "universityDate": "2015-2019",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-    },
+    "education": 
+    [
+      {
+        "universityId":"2",
+        "universityName": "Google/Data Analytics Professional Certificate",
+        "universityDate": "June 2022 - November 2022",
+        "universityPara": "Completed extensive six months job-ready Google Career Certificate training. Demonstrated hands-on experience in data cleaning, data visualization, project management, interpreting and communicating data analytics findings. Confidence in transforming complex data into actionable and clear insights. Fluency in computer programming languages and Undersatnding of Databases."
+      },
+      {
+        "universityId":"1",
+        "universityName": "Chitkara University",
+        "universityDate": "2015-2019",
+        "universityPara": ""
+      }  
+    ],
     "languages": ["Python", "SQL", "Javascript"],
     "frameworks": ["Tensorflow", "Pandas", "Numpy"],
     "others": ["GCP", "Azure Data Factory", "AWS"]

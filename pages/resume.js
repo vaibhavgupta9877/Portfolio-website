@@ -75,14 +75,49 @@ const Resume = () => {
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Education</h1>
-                <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
+                <div className="flex mob:flex-col desktop:flex-row justify-between">
+                  {resume.education && (
+                    <div>
+                      <ul className="list-disc">
+                        {resume.education.map((education) => (
+                          <li key={education.universityId} className="ml-5 py-2">
+                            <h2 className="text-lg">
+                              {education.universityName}
+                            </h2>
+                            <h3 className="text-sm opacity-75">
+                              {education.universityDate}
+                            </h3>
+                            <p className="text-sm mt-2 opacity-50">
+                              {education.universityPara}
+                            </p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {/* create */}
+                  {/* <ul className="list-disc">
+                    {resume.education.map((edu) => {
+                      <div>
+                        <li key={edu.universityId}  className="ml-5 py-2">
+                          <h2 className="text-lg">{edu.universityName}</h2>
+                        </li>
+                        <h3 className="text-sm opacity-75">
+                          {edu.universityDate}
+                        </h3>
+                        <p className="text-sm mt-2 opacity-50">
+                          {edu.universityPara}
+                        </p>
+                      </div>;
+                    })}
+                  </ul> */}
+                  {/* <h2 className="text-lg">{resume.education.universityName}</h2>
                   <h3 className="text-sm opacity-75">
                     {resume.education.universityDate}
                   </h3>
                   <p className="text-sm mt-2 opacity-50">
                     {resume.education.universityPara}
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="mt-5">
