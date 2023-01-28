@@ -133,6 +133,7 @@ export default function Home() {
           <h1 className="tablet:m-10 text-2xl text-bold">About</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
             {data.aboutpara}
+            
           </p>
         </div>
         <Footer />
